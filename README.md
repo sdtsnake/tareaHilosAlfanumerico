@@ -1,4 +1,4 @@
-# tareaHilosAlfanumerico
+# Tarea Hilos Alfanumerico
 Ejercicio final de hilos
 
 Para la tarea se pide implementar una clase llamada AlfanumericoTarea que implemente la interface Runnable y tenga como atributo un enum llamado Tipo.
