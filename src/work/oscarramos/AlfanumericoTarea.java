@@ -5,8 +5,6 @@ import work.oscarramos.enums.Valores;
 public class AlfanumericoTarea implements Runnable{
 
     private Valores valor;
-    private final char[] alfabeto = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-
     public AlfanumericoTarea(Valores valor) {
         this.valor = valor;
     }
@@ -21,8 +19,8 @@ public class AlfanumericoTarea implements Runnable{
             }while (numeros < 10);
             System.out.println();
         }else if(this.valor == Valores.LETRAS){
-            for (char imp :alfabeto) {
-                System.out.print(imp + " ");
+            for (char i = 'A'; i < 'Z'; i++) {
+                System.out.print(i + " ");
             }
             System.out.println();
         }
